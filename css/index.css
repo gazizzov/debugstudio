@@ -1,5 +1,7 @@
 body {
-  background: url(/img/bg.png), lightgray 50% / cover no-repeat;
+  background: url("https://i.ibb.co.com/rHqMWsQ/bg.png"), lightgray 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 nav {
