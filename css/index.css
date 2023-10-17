@@ -1,0 +1,155 @@
+body {
+  background: url(/img/bg.png), lightgray 50% / cover no-repeat;
+}
+
+nav {
+  margin: 35px 375px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  display: inline-flex;
+  align-items: center;
+  gap: 186px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.logo-text {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.bug {
+  color: #FF3A3A;
+}
+
+.a {
+  margin-right: 30px;
+  color: #C2C2C2;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  align-items: flex-start;
+  transition: color 0.3s ease;
+}
+
+.a:hover {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.order-text {
+  border-radius: 10px;
+  border: 2px solid #31FF90;
+  padding: 15px 30px;
+  transition: background-color 0.3s ease;
+}
+
+.order-text {
+  color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.order-text:hover {
+  background-color: #31FF90;
+  color: #000;
+  transition: background-color 0.3s ease;
+}
+
+main {
+  margin: 100px 375px;
+}
+
+main h1 {
+  color: #FFF;
+  font-family: Pacifico;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+
+main span {
+  display: block; /* Делаем span блочным элементом */
+  color: #FFF;
+  font-family: Pacifico;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  position: absolute;
+}
+
+main p {
+  margin-top: 10px;
+  width: 570px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.order-button {
+  margin-top: 20px;
+  border-radius: 10px;
+  color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(180deg, #00D662 0%, #00863E 100%);
+  display: flex;
+  padding: 14px 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.order-button:hover {
+  background: linear-gradient(180deg, #00863E 0%, #00D662 100%);
+}
+
+.support-button {
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 1px solid #00B955;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  padding: 14px 68px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.support-button:hover {
+  background: #00B955;
+  color: #000;
+  transition: background-color 0.3s ease;
+}
+
+.why-us {
+  margin-left: 131px; 
+}
+
+.container {
+  display: flex;
+  gap: 90px;
+}
